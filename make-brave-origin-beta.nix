@@ -321,7 +321,7 @@ stdenv.mkDerivation {
     sourceProvenance = with lib.sourceTypes; [ binaryNativeCode ];
     license = lib.licenses.mpl20;
     maintainers = with lib.maintainers; [
-      # Add your maintainer handle here
+      "clementpoiret"
     ];
     platforms = [
       "x86_64-linux"
